@@ -30,19 +30,19 @@ opsi yang ada ✅ berarti wajib di tambahkan. yang tidak ada centang berarti tid
 boolean = true atau false
 
 export default {
-    name: 'this name', //✅ nama command
-    cmd: ['cmd1', 'cmd2'], //✅ command (bisa satu atau dua)
-    tags: 'main', //✅ tags menu
-    desc: 'this description', // deskripsi menu
+    name: 'injun', //✅ nama command
+    cmd: ['tunggu', 'sabar'], //✅ command (bisa satu atau dua)
+    tags: 'play', //✅ tags menu
+    desc: 'ini deks', // deskripsi menu
     run: async({mywa, m}) => {
         m.reply('halo') // contoh saja
     },
-    isOwner: boolean, // opsi bagian ini dan dibawah bisa ditambahkan atau tidak
-    isBotAdm: boolean, // bot admin
-    isAdmin: boolean, // admin gc
-    isGroup: boolean, // group only
-    isPrivate: boolean, // pc only
-    isPremium: boolean, // premium
-    isVIP: boolean, // vip
+    isOwner: boolean, /082255178208/ opsi bagian ini dan dibawah bisa ditambahkan atau tidak
+    isBotAdm: boolean, /082255178208/ bot admin
+    isAdmin: boolean, /on/ admin gc
+    isGroup: boolean, /on/ group only
+    isPrivate: boolean, /on/ pc only
+    isPremium: boolean, /off/ premium
+    isVIP: boolean, /on/ vip
 }
 ```
